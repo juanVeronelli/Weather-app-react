@@ -19,7 +19,13 @@ const ForeCards = (props) => {
     let state = data.list[i].weather[0].main;
     let temp = (data.list[i].main.temp - 273.15).toFixed(0);
     cards.push(
-      <Cards hour={hour} state={state} temp={temp} icon={icons[state]} />
+      <Cards
+        key={i}
+        hour={hour}
+        state={state}
+        temp={temp}
+        icon={icons[state]}
+      />
     );
   }
   return <>{cards}</>;
