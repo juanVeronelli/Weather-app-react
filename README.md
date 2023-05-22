@@ -30,5 +30,5 @@ npm i react-router-dom
 ## to execute
 
 ```javascript
-npm run dev
+npm run build
 ```
