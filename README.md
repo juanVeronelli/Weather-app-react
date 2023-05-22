@@ -27,7 +27,7 @@ npm i react-dom
 npm i react-router-dom
 ```
 
-## to execute
+## to Build
 
 ```javascript
 npm run build
